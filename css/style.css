@@ -1,0 +1,69 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+/*ESTE ES EL FONDO DE LA PAGINA*/
+body {
+    background-color: black;
+    /*
+    le da una oscuridad o luz, baja el brillo
+    opacity: 0.3;
+    */
+}
+
+/*TITULO SOMOS CONSTRUCCIONES MUÑOZ*/
+#titulo {
+    color: mediumturquoise;
+    margin:  15px 20px 25px 30px;
+
+}
+
+/*LOGO TITULO SOMOS CONSTRUCCIONES MUÑOZ*/
+header img {
+    width: 50px;
+    margin:  15px 20px 25px 30px;
+
+}
+
+/*DIV PARRAFO DE BIENVENIDA*/
+.parrafo-bienvenida {
+    color: lightgray;
+    margin:  15px 20px 25px 30px;
+
+}
+
+/*ARTICLE CONTENEDOR "TARJETA" (puntos)*/
+.post {
+    border: 5px mediumturquoise dotted;
+    margin:  15px 20px 25px 30px;
+    padding: 30px 25px 20px 15px;
+}
+
+/*TITULO H2 DENTRO DEL ARTICLE*/
+.post h2 {
+    color: lightskyblue;
+   
+}
+
+/*PARRAFOS DEL ARTICLE*/
+.post p {
+    color: lightgray;
+}
+
+/*ARTICLE IMAGEN*/
+.post img {
+    width: 100%;
+}
+
+
+
+/*FOOTER PIE DE PAGINA*/
+.foot {
+    background-color:mediumturquoise ;
+   }
+
+/*FOOTER LOGO*/
+.foot img {
+    width: 30px;
+}
