@@ -1,69 +1,125 @@
+@import url("https://fonts.googleapis.com/css2? family=Karla:ital,wght@0,200;1,200;1,800&family=Sofia+Sans+Extra+Condensed:wght@1&family=Source+Code+Pro:ital,wght@1,300;1,400&family=Teko:wght@700&display=swap");
+
+/*
+medida para pc
+@media screen and (max-width: 1024px) {
+.card-producto .translate {
+    flex-direction: column;
+  }
+  .tarjetas {
+    flex-direction: column;
+    display: flex;
+  }
+}
+medida para tablet
+@media screen and (max-width: 767px) {
+  .card-producto .translate {
+    flex-direction: column;
+  }
+  .tarjetas {
+    flex-direction: column;
+    display: flex;
+  }
+  .container {
+    padding: 0;
+  }
+  .btn-enviar {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+medida para celular
+@media screen and (max-width: 480px) {
+  .card-producto .translate {
+    flex-direction: column;
+  }
+  .tarjetas {
+    flex-direction: column;
+    display: flex;
+  }
+}
+*/
 * {
 margin: 0;
 padding: 0;
+box-sizing: border-box;
+font-family: "Teko", sans-serif;
 }
 
-/*ESTE ES EL FONDO DE LA PAGINA*/
-body {
-    background-color: black;
-    /*
-    le da una oscuridad o luz, baja el brillo
-    opacity: 0.3;
-    */
+.navbar a {
+  font-weight: 600;
+  font-size: 18px;
 }
 
-/*TITULO SOMOS CONSTRUCCIONES MUÑOZ*/
-#titulo {
-    color: mediumturquoise;
-    margin:  15px 20px 25px 30px;
-
+.carousel-item {
+  min-height: 400px;
 }
 
-/*LOGO TITULO SOMOS CONSTRUCCIONES MUÑOZ*/
-header img {
-    width: 50px;
-    margin:  15px 20px 25px 30px;
-
+.carousel-caption {
+  bottom: 220px;
+  z-index: 2;
 }
 
-/*DIV PARRAFO DE BIENVENIDA*/
-.parrafo-bienvenida {
-    color: lightgray;
-    margin:  15px 20px 25px 30px;
-
+.carousel-caption h5 {
+  font-size: 70px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top: 25px;
 }
 
-/*ARTICLE CONTENEDOR "TARJETA" (puntos)*/
-.post {
-    border: 5px mediumturquoise dotted;
-    margin:  15px 20px 25px 30px;
-    padding: 30px 25px 20px 15px;
+.carousel-caption p {
+  width: 60%;
+  margin: 10px auto;
+  font-size: 18px;
 }
 
-/*TITULO H2 DENTRO DEL ARTICLE*/
-.post h2 {
-    color: lightskyblue;
-   
+.carousel-inner::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: grey;
+  z-index: 1;
 }
 
-/*PARRAFOS DEL ARTICLE*/
-.post p {
-    color: lightgray;
+.services {
+  padding: 80px 0;
 }
 
-/*ARTICLE IMAGEN*/
-.post img {
-    width: 100%;
+.bg-car1 {
+  background-image: linear-gradient(
+    black,
+    black), 
+    url(../img/cobertizouno.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-car2 {
+  background-image: linear-gradient(
+    black,
+    black), 
+    url(../img/ceramicaytechoantes.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-car3 {
+  background-image: linear-gradient(
+    black,
+    black), 
+    url(../img/ceramicaytechoterminadov1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
 
-/*FOOTER PIE DE PAGINA*/
-.foot {
-    background-color:mediumturquoise ;
-   }
 
-/*FOOTER LOGO*/
-.foot img {
-    width: 30px;
-}
+
+
